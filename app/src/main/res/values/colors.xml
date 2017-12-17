@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#005e9e</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="main_tab_bg">#005e9e</color>
+    <color name="main_blue_1">#005e9e</color>
+    <color name="line_blue">#C6D9F1</color>
+    <color name="transparent">#00000000</color>
+    <color name="m_gray">#dedede</color>
+    <color name="m_grayeee">#EEEEEE</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_black66">#666666</color>
+    <color name="text_black">#000000</color>
+    <color name="text_blue">#005fac</color>
+    <color name="text_orange">#E46C0A</color>
+    <color name="text_red_girl">#FF4081</color>
+
+    <color name="divider">#E5E5E5</color>
+    <color name="shadow">#AAEBEBEB</color>
+    <color name="m_common_bg">#FAFAFA</color>
+    <color name="content_bg">#F3F3F3</color>
+    <color name="text_gray">#8c8c8c</color>
+    <color name="text_yellow">#F0C96E</color>
+    <color name="gray_deep">#2c2c2c</color>
+    <color name="alpha_gray">#CC646464</color>
+    <color name="theme_gray">#646464</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    <color name="divider_blue">#55005fac</color>
+    <!--scan code -->
+    <color name="cl_80c469">#80c469</color>
+
+    <drawable name="ranking_radiobtn_checked">#055FAC</drawable>
+    <drawable name="ranking_radiobtn_nocheck">#7FCCFF</drawable>
+    <color name="tag_show_blue">#5C97C9</color>
+    <color name="ease_btn_blue_pressed_shape">#0F51D9</color>
+
+</resources>

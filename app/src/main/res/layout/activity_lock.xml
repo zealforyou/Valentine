@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_lock"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/lock_bg1"
+    tools:context="com.furongwang.valentine.LockActivity">
+    <ImageView
+        android:id="@+id/iv_left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        android:src="@mipmap/left"/>
+    <ImageView
+        android:id="@+id/iv_right"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        android:src="@mipmap/right"/>
+    <LinearLayout
+        android:id="@+id/ll_limit_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:text="离7点7分还差"
+            android:textColor="@color/black"
+            android:textSize="@dimen/mine_item_text_size_s"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_hour"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/ease_btn_blue_pressed_shape"
+                android:gravity="center"
+                android:text="00"
+                android:textColor="@color/white"
+                android:textSize="@dimen/mine_item_text_size_s"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10px"
+                android:text=":"
+                android:textColor="@color/white"
+                android:textSize="@dimen/mine_item_text_size_s"/>
+
+            <TextView
+                android:id="@+id/tv_minute"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/ease_btn_blue_pressed_shape"
+                android:gravity="center"
+                android:text="00"
+                android:textColor="@color/white"
+                android:textSize="@dimen/mine_item_text_size_s"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10px"
+                android:text=":"
+                android:textColor="@color/white"
+                android:textSize="@dimen/mine_item_text_size_s"/>
+
+            <TextView
+                android:id="@+id/tv_second"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/ease_btn_blue_pressed_shape"
+                android:gravity="center"
+                android:text="00"
+                android:textColor="@color/white"
+                android:textSize="@dimen/mine_item_text_size_s"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
